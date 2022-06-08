@@ -2,7 +2,7 @@
 
 This repository contains the unofficial implementation of the CTAugment Wrapper that can be used with any classification task in PyTorch.
 
-- The implementation of the CTAugment readily with the present training pipelines is bit difficult, as we may have to change and add the piece of code to support it. On the other hand, this repository will come in hand to directly use the CTAugment with any existing image classification training repositories and codebase.
+- The implementation of the CTAugment readily with the present training pipelines is bit difficult, as we may have to change and add the piece of code to support it. On the other hand, this repository will come handy if you directly want to use the **CTAugment** with any existing image classification training repositories and codebase with just minimal changes.
 
 - CTAugment stands for Control Theory Augment which was introduced in the [ReMixMatch Paper](https://arxiv.org/pdf/1911.09785.pdf). 
 
