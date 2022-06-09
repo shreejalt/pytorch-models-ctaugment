@@ -146,7 +146,7 @@ optional arguments:
   `--resume` and path to the checkpoint. Note that the weights will only be loaded if the `resume` path contains the CT checkpoints. 
 - You can also use `--no-update-ct` to stop the update of the weights during the training.
 
-- Demo Command: `python3 main.py ../../Datasets/cifar_classification/cifar10_classification --use-cosine --lr 0.01 --gpu 0 -b 64 --size 32 --use-ct --use-scheduler --arch resnet18`.
+- Demo Command: `python3 main.py ${path/to/dataset} --use-cosine --lr 0.01 --gpu 0 -b 64 --size 32 --use-ct --use-scheduler --arch resnet18`.
 ___
 
 ## References and Citations
